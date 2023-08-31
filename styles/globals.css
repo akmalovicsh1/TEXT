@@ -1,0 +1,80 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+  color:white;
+  background-color: rgb(45, 45, 45);
+  margin:0;
+}
+
+#box{
+  background-color: rgb(53, 52, 60);
+  width:90%;
+  display:inline-block;
+  border-radius: 10px;
+  padding:40px 20px;
+  margin:20px 0 30px 0;
+}
+
+#description{
+  padding:15px;
+  margin:10px;
+  border:none;
+  border-radius: 10px;
+  outline: none;
+  width:80%;
+}
+
+
+
+#num{
+  width:50px;
+  padding: 15px;
+  border-radius: 5px;
+  outline:none;
+  border:none;
+  margin:5px;
+
+}
+
+#generate{
+  padding:15px;
+  background-color: rgb(102, 102, 219);
+  color:white;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  font-weight: bold;
+  border-bottom: 4px solid rgb(47, 47, 153);
+  position: relative;
+  font-size: large;
+}
+#generate:active{
+  border:none;
+  top:4px;
+}
+.images{
+  width:40%;
+  margin:10px;
+
+}
+@media screen and (max-width:650px) {
+  .images{width:90%}
+}
+
+#modelSelect, #customModel{
+  padding:15px;
+  font-size: large;
+  margin:15px;
+  border:none;
+  background-color: rgb(45, 114, 205);
+  color:white;
+  border-radius: 5px;
+  outline: none;
+}
+
+#customModel{
+  display:none;
+}
+#customModel::placeholder{
+  color:rgb(196, 194, 194);
+}
